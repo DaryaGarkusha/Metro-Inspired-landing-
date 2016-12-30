@@ -92,14 +92,11 @@ ul.logos_footer {
 ul.logos_footer li {
     display: inline-block;
     list-style-type: none;
-}
-
-ul.logos_footer li a {
     padding-right: 18px;
 }
 
-ul.logos_footer li a:last-child {
-    padding-right: 1 !important;
+ul.logos_footer li:last-child {
+    padding-right: 0 !important;
 }
 
 ul.help {
@@ -152,50 +149,3 @@ p.footer_text {
     color: black;
 }
 
-/*.onhover:hover {
-    content: url(img/content/hover.png);
-    width: 50px;
-}*/
-
-
-/*.onhover{
-    position: relative;
-}
-.hover_image {
-    position: absolute;
-    visibility: hidden;
-    opacity: 0;
-}
-.onhover:hover .hover_image {
-  visibility: visible;
-  opacity: 1;
-}*/
-/*.onhover {
-   /* position: relative;*/
-   /* width: 200px;
-    height: 300px;*/
-}
-/*.onhover .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #FFF;
-}
-.onhover:hover .after {
-    display: block;
-    background: rgba(0, 0, 0, .6);
-}
-
-*/
-
-/*.after{
-    position: relative;
-visibility: hidden; 
-z-index: 0;
-}
-.regular .slider div :hover .after{
-visibility: visible;
-}*/
