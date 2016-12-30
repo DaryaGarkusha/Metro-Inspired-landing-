@@ -119,7 +119,8 @@ a.footer_button img {
 }
 
 p.footer_text {
-    padding: 40px 0 150px 194px;
+    padding: 40px 0 150px 50%;
+    /*text-align: center;*/
 }
 
 
@@ -149,3 +150,37 @@ p.footer_text {
     color: black;
 }
 
+ul.nav {
+    float: right;
+    display: block;
+    height: 77px;
+}
+
+ul.nav li {
+    /*display: block;*/
+    width: 80px;
+    height: 77;
+    float: left;
+    list-style-type: none;
+    background-image: url(img/menu/menu_li.png);
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    margin-right: 10px;
+}
+
+ul.nav li :hover {
+
+    background-image: url(img/menu/blue_hover_menu.png);
+    background-repeat: no-repeat;
+    
+}
+ul.nav li a {
+    padding: 28px 5px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.getintiuch a {
+    line-height: 0.5;
+}
