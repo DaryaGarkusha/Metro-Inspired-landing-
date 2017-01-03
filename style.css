@@ -149,7 +149,7 @@ p.footer_text {
 .slick-next:before {
     color: black;
 }
-
+/*end of slick */
 ul.nav {
     float: right;
     display: block;
@@ -168,12 +168,11 @@ ul.nav li {
     margin-right: 10px;
 }
 
-ul.nav li :hover {
-
+ul.nav li:hover {
     background-image: url(img/menu/blue_hover_menu.png);
     background-repeat: no-repeat;
-    
 }
+
 ul.nav li a {
     padding: 28px 5px;
     text-align: center;
@@ -181,6 +180,31 @@ ul.nav li a {
     text-transform: uppercase;
 }
 
-.getintiuch a {
-    line-height: 0.5;
+a.getintouch {
+    line-height: 95%;
+}
+
+.right_contact {
+    display: inline;
+    float: left;
+    width: auto;
+    margin-left: 5px;
+}
+
+.left_contact {
+    display: inline;
+    float: left;
+    width: auto;
+}
+
+img.left_contact {
+    display: inline;
+    float: left;
+}
+
+.qwerty {
+    display: inline;
+    width: 50%;
+    float: left;
+    margin:12px 0; 
 }
