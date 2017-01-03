@@ -149,8 +149,6 @@ p.footer_text {
 .slick-next:before {
     color: black;
 }
-
-
 /*end of slick */
 
 ul.nav {
@@ -171,7 +169,7 @@ ul.nav li {
     margin-right: 10px;
 }
 
-ul.nav li:hover {
+ul.nav li :hover {
     background-image: url(img/menu/blue_hover_menu.png);
     background-repeat: no-repeat;
 }
