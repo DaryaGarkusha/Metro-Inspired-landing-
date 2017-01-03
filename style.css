@@ -149,7 +149,10 @@ p.footer_text {
 .slick-next:before {
     color: black;
 }
+
+
 /*end of slick */
+
 ul.nav {
     float: right;
     display: block;
@@ -185,6 +188,7 @@ a.getintouch {
 }
 
 .right_contact {
+    padding-top: 6px;
     display: inline;
     float: left;
     width: auto;
@@ -202,9 +206,18 @@ img.left_contact {
     float: left;
 }
 
-.qwerty {
+.block_contacts {
     display: inline;
     width: 50%;
     float: left;
-    margin:12px 0; 
+    margin: 12px 0;
+}
+
+p.contact_title {
+    margin-bottom: 1px;
+}
+
+p.contacts_paragraph {
+    line-height: 95%;
+    display: inline;
 }
