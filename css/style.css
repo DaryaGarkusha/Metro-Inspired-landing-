@@ -1,6 +1,6 @@
 body {
     background-color: #ececed;
-    background-image: url(img/bggrid.png);
+    background-image: url('../img/bggrid.png');
 }
 
 .container {
@@ -41,7 +41,7 @@ h1.grey {
 }
 
 ul.work_ul {
-    list-style-image: url('img/content/arrowUL.png');
+    list-style-image: url('../img/content/arrowUL.png');
     padding: 0;
 }
 
@@ -163,14 +163,14 @@ ul.nav li {
     height: 77;
     float: left;
     list-style-type: none;
-    background-image: url(img/menu/menu_li.png);
+    background-image: url(../img/menu/menu_li.png);
     background-repeat: no-repeat;
     /*background-size: 100%;*/
     margin-right: 10px;
 }
 
 ul.nav li :hover {
-    background-image: url(img/menu/blue_hover_menu.png);
+    background-image: url(../img/menu/blue_hover_menu.png);
     background-repeat: no-repeat;
 }
 
